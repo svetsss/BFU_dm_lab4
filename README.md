@@ -1,1 +1,4 @@
-# BFU_dm_lab4
+Compression Algorithms Project
+
+Main project is in /repo.
+Optional visualisation is in /visualisation.
