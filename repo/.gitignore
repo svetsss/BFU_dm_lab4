@@ -1,0 +1,13 @@
+# Сгенерированные данные
+data/text_clean.txt
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.pyc
+__pycache__/
