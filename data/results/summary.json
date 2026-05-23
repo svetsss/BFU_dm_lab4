@@ -1,0 +1,30 @@
+{
+  "text_length": 12000,
+  "alphabet_size": 32,
+  "shannon_entropy_h1": 4.16458973030323,
+  "methods": [
+    {
+      "method": "uniform_5_bit_code",
+      "bits": 60000,
+      "average_bits_per_symbol": 5.0,
+      "compression_ratio_to_uniform": 1.0,
+      "saved_percent_to_uniform": 0.0
+    },
+    {
+      "method": "huffman_code",
+      "bits": 50515,
+      "average_bits_per_symbol": 4.209583333333334,
+      "compression_ratio_to_uniform": 0.8419166666666666,
+      "saved_percent_to_uniform": 15.808333333333335
+    },
+    {
+      "method": "lzw_code",
+      "bits": 44789,
+      "average_bits_per_symbol": 3.7324166666666665,
+      "compression_ratio_to_uniform": 0.7464833333333334,
+      "saved_percent_to_uniform": 25.35166666666666
+    }
+  ],
+  "best_method": "lzw_code",
+  "comment": "The best method is the one with the smallest encoded bit length for this text."
+}
